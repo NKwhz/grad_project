@@ -9,6 +9,7 @@
   \clearpage
   \vspace*{24pt}
   \centerline{\zihaoxiaoer\rmfamily\bfseries\jiacu 摘要}
+  \addcontentsline{toc}{chapter}{\protect\numberline{摘要}{}}
   \markboth{摘要}{摘要} 
   \vspace*{18pt}
   \fontsize{12}{20}\selectfont}
@@ -18,6 +19,7 @@
   \clearpage
   \vspace*{24pt}
   \centerline{\zihaoxiaoer\usefont{OT1}{phv}{bx}{n}Abstract}
+  \addcontentsline{toc}{chapter}{\protect\numberline{Abstract}{}}  
   \markboth{Abstract}{Abstract}
   \vspace*{18pt}
   \fontsize{12}{20}\selectfont}
@@ -104,10 +106,11 @@
   \def\arraystretch{2}
   \tabcolsep 0.1em
   \begin{tabular}{lcl}
-  \NKT@tp@item{论文作者}{lunwenzuozhe}  & \hbox to 5mm{} & \NKT@tp@item{指导教师}{zhidaojiaoshi}  \\
+  \NKT@tp@item{论文作者}{lunwenzuozhe}  & \hbox to 10mm{} & \NKT@tp@item{指导教师}{zhidaojiaoshi}  \\
   \NKT@tp@item{申请学位}{shenqingxuewei}&                 & \NKT@tp@item{培养单位}{peiyangdanwei}  \\
   \NKT@tp@item{学科专业}{xuekezhuanye}  &                 & \NKT@tp@item{研究方向}{yanjiufangxiang}\\
-  \NKT@tp@item{答辩委员会主席}{zhuxi}  &                  & \NKT@tp@item{评阅人}{pingyueren}\\   
+  答辩委员会主席 \hskip 0.5em\underline{\hbox to 24mm{}} 
+  & &评\hskip 0.5em 阅\hskip 0.5em人\hskip 0.5em\underline{\hbox to 40mm{}}     
  \end{tabular}
 
   \vskip 10mm
